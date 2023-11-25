@@ -41,7 +41,7 @@ app.post('/add-session', (req , res) => {
         data.push([username, networth, session]);
         res.send("OK");
       });
-    });
+    });/apiURL
   });
 
 app.get('/api', (req, res) => {
